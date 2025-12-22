@@ -1,5 +1,8 @@
 import companyLogo from "@/assets/company-logo.jpeg";
-import seedPacketImage from "@/assets/virat-11-seeds.jpeg";
+import virat11Image from "@/assets/virat-11-seeds.jpeg";
+import aditya22Image from "@/assets/aditya-22-seeds.jpeg";
+import aditya55Image from "@/assets/aditya-55-seeds.jpeg";
+import aditya44Image from "@/assets/aditya-44-seeds.jpeg";
 import { Card } from "@/components/ui/card";
 import { Separator } from "@/components/ui/separator";
 
@@ -45,13 +48,40 @@ const Index = () => {
       {/* Seed Packet Section */}
       <section className="bg-background py-8 md:py-10">
         <div className="container max-w-4xl mx-auto px-4">
-          <h3 className="text-xl md:text-2xl font-bold text-foreground mb-4">Our Varieties</h3>
-          <div className="flex justify-center">
-            <img
-              src={seedPacketImage}
-              alt="VIRAT-11 Research Hybrid Bajara Seeds Package"
-              className="w-full max-w-xs md:max-w-sm rounded-lg shadow-[var(--shadow-card)]"
-            />
+          <h3 className="text-xl md:text-2xl font-bold text-foreground mb-6">Our Varieties</h3>
+          <div className="grid grid-cols-2 gap-4 md:gap-6">
+            <div className="flex flex-col items-center">
+              <img
+                src={virat11Image}
+                alt="VIRAT-11 Research Hybrid Bajara Seeds Package"
+                className="w-full rounded-lg shadow-[var(--shadow-card)]"
+              />
+              <p className="mt-3 text-lg md:text-xl font-bold text-foreground">Virat 11</p>
+            </div>
+            <div className="flex flex-col items-center">
+              <img
+                src={aditya22Image}
+                alt="ADITYA-22 Research Hybrid Bajara Seeds Package"
+                className="w-full rounded-lg shadow-[var(--shadow-card)]"
+              />
+              <p className="mt-3 text-lg md:text-xl font-bold text-foreground">Aditya-22</p>
+            </div>
+            <div className="flex flex-col items-center">
+              <img
+                src={aditya55Image}
+                alt="ADITYA-55 Research Hybrid Bajara Seeds Package"
+                className="w-full rounded-lg shadow-[var(--shadow-card)]"
+              />
+              <p className="mt-3 text-lg md:text-xl font-bold text-foreground">Aditya-55</p>
+            </div>
+            <div className="flex flex-col items-center">
+              <img
+                src={aditya44Image}
+                alt="ADITYA-44+ Research Hybrid Bajara Seeds Package"
+                className="w-full rounded-lg shadow-[var(--shadow-card)]"
+              />
+              <p className="mt-3 text-lg md:text-xl font-bold text-foreground">Aditya-44+</p>
+            </div>
           </div>
         </div>
       </section>
