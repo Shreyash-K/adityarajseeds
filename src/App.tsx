@@ -9,6 +9,7 @@ import Aditya22 from "./pages/Aditya22";
 import Aditya55 from "./pages/Aditya55";
 import Okra from "./pages/Okra";
 import Rasili from "./pages/Rasili";
+import FodderBajra from "./pages/FodderBajra";
 import NotFound from "./pages/NotFound";
 
 const queryClient = new QueryClient();
@@ -26,6 +27,7 @@ const App = () => (
           <Route path="/aditya-55" element={<Aditya55 />} />
           <Route path="/okra" element={<Okra />} />
           <Route path="/rasili" element={<Rasili />} />
+          <Route path="/fodder-bajra" element={<FodderBajra />} />
           {/* ADD ALL CUSTOM ROUTES ABOVE THE CATCH-ALL "*" ROUTE */}
           <Route path="*" element={<NotFound />} />
         </Routes>
