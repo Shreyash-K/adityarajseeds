@@ -25,7 +25,7 @@ const Aditya22 = () => {
               <div className="space-y-0.5 text-xs md:text-sm text-muted-foreground leading-relaxed">
                 <p>S-16, Kanku Complex, Opp. Welcome Party Plot,</p>
                 <p>Modhera Road, Nagalpur, Mehsana, Gujarat, 384002</p>
-                <p className="mt-1.5">Customer Care: 94263 50163</p>
+                <p className="mt-1.5">Customer Care: +91 99254 41144</p>
                 <p>Email: adityarajagrigenetics@gmail.com</p>
               </div>
             </div>
