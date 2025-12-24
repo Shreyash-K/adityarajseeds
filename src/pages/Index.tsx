@@ -1,3 +1,4 @@
+import { Link } from "react-router-dom";
 import companyLogo from "@/assets/company-logo.jpeg";
 import virat11Image from "@/assets/virat-11-seeds.jpeg";
 import aditya22Image from "@/assets/aditya-22-seeds.jpeg";
@@ -5,6 +6,7 @@ import aditya55Image from "@/assets/aditya-55-seeds.jpeg";
 import aditya44Image from "@/assets/aditya-44-seeds.jpeg";
 import { Card } from "@/components/ui/card";
 import { Separator } from "@/components/ui/separator";
+import { Button } from "@/components/ui/button";
 
 const Index = () => {
   return (
@@ -295,6 +297,17 @@ const Index = () => {
               </div>
             </div>
           </Card>
+        </div>
+      </section>
+
+      {/* Navigation Button */}
+      <section className="py-8 md:py-12 bg-muted/30 border-t border-border/30">
+        <div className="container max-w-4xl mx-auto px-4 text-center">
+          <Link to="/rasili">
+            <Button size="lg" className="text-lg px-8 py-6">
+              View Rasili - Sorghum Sudan Grass
+            </Button>
+          </Link>
         </div>
       </section>
     </main>
