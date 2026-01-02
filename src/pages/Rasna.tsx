@@ -23,7 +23,7 @@ const Rasna = () => {
       <section className="bg-background py-6 md:py-8 border-b border-border/30">
         <div className="container max-w-4xl mx-auto px-4">
           <h2 className="text-2xl md:text-4xl font-bold text-foreground leading-tight">
-            Rasili - Hy. Sorghum Sudan Grass
+            Rasna - Hy. Sorghum Sudan Grass
           </h2>
         </div>
       </section>
