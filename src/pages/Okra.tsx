@@ -61,107 +61,86 @@ const Okra = () => {
           {/* Gujarati Content */}
           <Card className="mb-12 p-8 md:p-12 bg-card shadow-[var(--shadow-card)] border-border">
             <h1 className="text-3xl md:text-4xl font-bold text-accent mb-8 font-devanagari text-center">
-              ભીંડા ની ખેતી પદ્ધતિ
+              Package of Practices - Gujarati
             </h1>
 
             <div className="space-y-8 font-devanagari text-base md:text-lg leading-relaxed text-foreground">
               <div>
-                <h2 className="text-xl md:text-2xl font-bold text-primary mb-3">જમીન:</h2>
+                <h2 className="text-xl md:text-2xl font-bold text-primary mb-3">1. જમીનની તૈયારી</h2>
                 <p>
-                  ચાંગલી નિચરા હોણારી, હલકી વાલુમિશ્રિત માતી યોગ્ય આહે.
+                  વાવેતરના 20-25 દિવસ પહેલા એકર 10-12 ટન ખાતર ઉમેરીને જમીન તૈયાર કરો અને અંતરધ્યાનમાં રાખીને પથારી બનાવો. નાઇટ્રોજન ફિક્સિંગ, ફોસ્ફરસ દ્રાવ્ય અને પોટેશિયમ જેવા કાર્બનિક પદાર્થોનો ઉપયોગ કરી શકાય છે અને ટ્રાઇકોડર્મા અને સ્યુડોમોનાસ જેવા કાર્બનિક પદાર્થો જે બેક્ટેરિયાને સક્રિય કરે છે તેનો ઉપયોગ કરી શકાય છે.
                 </p>
               </div>
 
               <div>
-                <h2 className="text-xl md:text-2xl font-bold text-primary mb-3">પેરણીચી વેળ:</h2>
+                <h2 className="text-xl md:text-2xl font-bold text-primary mb-3">2. બીજ દર અને પદ્ધતિ</h2>
                 <p>
-                  ગ્રીષ્મ: જૂન-જુલે ઉન્હાળી હંગામ: ફેબ્રુવારી
+                  સરેરાશ ૨.૫-૩.૫ કિગ્રા/એકર (રોપાના અંતર અને પ્રદેશના આધારે બદલાય છે), પદ્ધતિ - સીધી વાવણી
                 </p>
               </div>
 
               <div>
-                <h2 className="text-xl md:text-2xl font-bold text-primary mb-3">બિયાણે / કિલો હેક્ટર:</h2>
-                <p>4-6 લાગવડ, 8-10 પેરણી</p>
+                <h2 className="text-xl md:text-2xl font-bold text-primary mb-3">3. અંતર</h2>
+                <p>રવી - ૪૫ સેમી × ૧૫ સેમી (હરોળથી હરોળ × બીજથી બીજ)</p>
+                <p>ખરીફ - ૪૫ સેમી × ૩૦ સેમી (હરોળથી હરોળ × બીજથી બીજ)</p>
+                <p>પ્રાદેશિક પ્રથા અનુસાર બદલાય છે.</p>
               </div>
 
               <div>
-                <h2 className="text-xl md:text-2xl font-bold text-primary mb-3">લાગવડીચે અંતર:</h2>
-                <p>માનસૂન: 60 x 30 (સેં.મી.)</p>
-                <p>ગ્રીષ્મકાલ: 45 x 20 (સેં.મી.)</p>
-              </div>
-
-              <div>
-                <h2 className="text-xl md:text-2xl font-bold text-primary mb-3">જમિનીચી તયારી:</h2>
+                <h2 className="text-xl md:text-2xl font-bold text-primary mb-3">4. પોષક તત્વોનું સંચાલન</h2>
                 <p>
-                  જમિનીત ગ્રોલવર નાંગરણી કરૂન 2-3 વેળા. પાવસાળ્યાત જમિનીચી ચાંગલી તયાર અસાવી વ પાણ્યાચા નિચરા યોગ્ય પદ્ધતીને ફ્લાવા.
+                  NPK ની જરૂરિયાત: 60:40:40 NPK કિગ્રા/એકર. 30% નાઇટ્રોજન અને 50% ફોસ્ફરસ અને 25% પોટેશિયમ મૂળભૂત માત્રા તરીકે આપવામાં આવે છે. બાકીના 40% નાઇટ્રોજન અને 50% ફોસ્ફરસ અને 25% પોટેશિયમ 25-30 દિવસના અંતરાલમાં પ્રથમ ટોપડ્રેસિંગ તરીકે આપવામાં આવે છે. બાકીના 30% નાઇટ્રોજન અને 25% પોટેશિયમ લગભગ 45-50 દિવસના અંતરાલમાં બીજા ટોપડ્રેસિંગ તરીકે આપવામાં આવે છે.
+                </p>
+                <p className="mt-2 text-muted-foreground">
+                  (સંતુલિત પ્રાથમિક, ગૌણ અને સૂક્ષ્મ પોષકતત્ત્વોનો ઉપયોગ ફળના સેટિંગ દરમિયાન અને પછી કરી શકાય છે જેના પરિણામે છોડની ગુણવત્તા અને ફળની માત્રામાં વધારો થાય છે.)
                 </p>
               </div>
 
               <div>
-                <h2 className="text-xl md:text-2xl font-bold text-primary mb-3">બિયાણે ઉપચાર:</h2>
-                <p>
-                  પેરણીપૂવી બિયાણ્યાંવર રાસાયનિક બુરશીનાશકે (ઉદા. થાયરમ કિંવા કાર્બેન્ડાઝિમ 2 તે 3 ગ્રૅમ પ્રતિ કિલો બિયાણે) કિંવા સેંદ્રિય બુરશીનાશકે (ટ્રાયકોડર્મા વ્હિરિડિસ 4 ગ્રૅમ પ્રતિ કિલો બિયાણે) લાવાવે.
-                </p>
-              </div>
-
-              <div>
-                <h2 className="text-xl md:text-2xl font-bold text-primary mb-3">પેરણી પદ્ધત:</h2>
-                <p>
-                  ભેંડીચી પેરણી રાંગેત કિંવા નાંગરાચ્યા નાલ્યાંચ્યા માગે બિયાણે સોડૂન કેલી જાતે. પાવસાળ્યાત ઉતારાવર ત્યાચી પેરણી કરાવી.
-                </p>
-              </div>
-
-              <div>
-                <h2 className="text-xl md:text-2xl font-bold text-primary mb-3">સેંદ્રિય ગ્રાત (તન /કિલો) હેક્ટર:</h2>
-                <p>10-12 ટન ગ્રાત</p>
-              </div>
-
-              <div>
-                <h2 className="text-xl md:text-2xl font-bold text-primary mb-3">રાસાયનિક ગ્રાતે કિલો /હેક્ટર:</h2>
-                <p>એકૂણ: 100:50:50 (NPK)</p>
-                <p>મુખ્ય ડોસ: 100:50:50 (NPK)</p>
-                <p>પરિપૂર્ણતા: 50:00:00 [N]</p>
-              </div>
-
-              <div>
-                <h2 className="text-xl md:text-2xl font-bold text-primary mb-3">સિંચાઈ:</h2>
-                <p>
-                  પેરણીનંતર લગેચચ પહિલે સિંચન દિલે જાતે. ઉન્હાળી પિકાંસાઠી 5 તે 8 દિવસ આણિ હિવાળી પિકાંસાઠી 10-12 દિવસાંચ્યા અંતરાને સિંચન થાવે.
-                </p>
-              </div>
-
-              <div>
-                <h2 className="text-xl md:text-2xl font-bold text-primary mb-3">તણ કાઢણે:</h2>
-                <p>
-                  પેરણીનંતર 25 દિવસાંની 2-3 વેળા આંતરશેતી સુરૂ કરાવી વ નંતર 15-20 દિવસાંચ્યા અંતરાને 2-3 વેળા હાતાને તણ કાઢૂન ટાકાવે.
-                </p>
-              </div>
-
-              <div>
-                <h2 className="text-xl md:text-2xl font-bold text-primary mb-3">રોગ નિયંત્રણ:</h2>
-                <p className="mb-3">
-                  <strong>યલો મોઝૅક:</strong> ઉગવણીનંતર 15 વ 30 દિવસાંની ડાયમેથોએટ 0.03% ફવારણી કરૂન રોગવાહક નિયંત્રણ કરતા યેતે. ત્યાવર નિયંત્રણ ઠેવણ્યાસાઠી સર્વ બાધિત ઝાડે ઉખ્રડૂન નષ્ટ કરાવીત
-                </p>
-              </div>
-
-              <div>
-                <h2 className="text-xl md:text-2xl font-bold text-primary mb-3">કીડ નિયંત્રણ:</h2>
-                <p>
-                  <strong>માવા તુડતુડે:</strong> ઉગવણીનંતર મૅલૅથિઓન 0.05% વ 25 વ 30 દિવસાંનંતર 0.03% ડાયમેથોએટને ફવારણી કેલ્યાસ માવા તુડતુડે વર પ્રભાવી નિયંત્રણ મિળણ્યાસ મદત હોતે.
-                </p>
-              </div>
-
-              <div>
-                <h2 className="text-xl md:text-2xl font-bold text-primary mb-3">કાડણી:</h2>
-                <p>
-                  સાધારણત: ભેંડીલા જાતીનુસાર 45-50 દિવસાંત ફળે યેણ્યાસ સુરવાત હોતે. દેઠાલા ધક્કૂ ન લાગતા ફિરવૂન ભેંડીચી કાઢણી કેલી જાતે.
-                </p>
+                <h2 className="text-xl md:text-2xl font-bold text-primary mb-3">5. જીવાત અને રોગ વ્યવસ્થાપન</h2>
+                
+                <div className="space-y-4 mt-4">
+                  <div>
+                    <h3 className="font-semibold text-foreground mb-2">સર્કોસ્પોરા પાંદડાના ટપકાં:</h3>
+                    <p className="text-muted-foreground">હેક્સાકોનાઝોલ 4% + ઝિનેબ 68% WP, પ્રોપીકોનાઝોલ 25%, કાર્બેન્ડાઝીમ 12% + મેન્કોઝેબ 63% WP, ક્લોરોથાલોનિલ 75% WP.</p>
+                  </div>
+                  
+                  <div>
+                    <h3 className="font-semibold text-foreground mb-2">પાવડરી માઇલ્ડ્યુ:</h3>
+                    <p className="text-muted-foreground">ટેબુકોનાઝોલ 50% + ટ્રાઇફ્લોક્સીસ્ટ્રોબિન 25% WG, મેટિરામ 55% + પાયરાક્લોસ્ટ્રોબિન 5% WG, માયક્લોબ્યુટેનિલ 10% WP, ફ્લુઓપાયરામ 17.7% + ટેબુકોનાઝોલ 17.7%.</p>
+                  </div>
+                  
+                  <div>
+                    <h3 className="font-semibold text-foreground mb-2">વર્ટિસિલિયમ વિલ્ટ:</h3>
+                    <p className="text-muted-foreground">જમીનને COC 50% WP, કાર્બેન્ડાઝીમ 25% + મેન્કોઝેબ 50%, થિયોફેનેટ મિથાઈલ 70% WP થી ભીંજવો. જમીનની તૈયારી દરમિયાન જૈવિક નિયંત્રણ એજન્ટોનો ઉપયોગ માટીજન્ય રોગાણુઓના ઉપદ્રવને ઘટાડવામાં મદદ કરે છે.</p>
+                  </div>
+                  
+                  <div>
+                    <h3 className="font-semibold text-foreground mb-2">કળી અને ફળ ખાનાર ઈયળ:</h3>
+                    <p className="text-muted-foreground">બ્રોફ્લેનાઇલાઇડ 20% SC, ક્લોરેન્ટ્રાનિલિપ્રોલ 18.50% SC, સાયન્ટ્રેનિલિપ્રોલ 10.26% OD, સાયપરમેથ્રિન 25% EC, ડેલ્ટામેથ્રિન 2.8% EC, એમામેક્ટિન બેન્ઝોએટ 05% SG, ફેનવેલરેટ 20% EC, ફ્લુબેન્ડિયામાઇડ 39.35% SC, પાયરિડાલિલ 10% EC, સ્પાઈનેટોરમ 11.70% SC, ક્લોરેન્ટ્રાનિલિપ્રોલ 09.30% + લેમ્બડા-સાયહેલોથ્રિન 04.60% ZC.</p>
+                  </div>
+                  
+                  <div>
+                    <h3 className="font-semibold text-foreground mb-2">સફેદ માખી:</h3>
+                    <p className="text-muted-foreground">ક્લોથિઆનિડિન ૦.૫% GR, સાયન્ટ્રાનિલિપ્રોલ ૧૦.૨૬% OD, ડાયફેન્થયુરોન ૫૦% WP, ફ્લોનિકામિડ ૫૦% WG, ફ્લુપાયરાડિફ્યુરોન ૧૭.૦૯% SL, પાયરિપ્રોક્સીફેન ૧૦% EC, ટોલ્ફેનપાયરાડ ૧૫% EC, પાયરિપ્રોક્સીફેન ૦૫% + ફેનપ્રોપેથ્રિન ૧૫% EC.</p>
+                  </div>
+                  
+                  <div>
+                    <h3 className="font-semibold text-foreground mb-2">એફિડ:</h3>
+                    <p className="text-muted-foreground">એસેટામિપ્રિડ ૨૦% SP, સાયન્ટ્રાનિલિપ્રોલ ૧૦.૨૬% OD, ફ્લોનિકામિડ ૫૦% WG, ઇમિડાક્લોપ્રિડ ૭૦% WS, સ્પિરોટેટ્રામેટ ૧૫.૩૧% OD, ટોલ્ફેનપાયરાડ ૧૫% EC.</p>
+                  </div>
+                  
+                  <div>
+                    <h3 className="font-semibold text-foreground mb-2">લીફહોપર્સ / જેસીડ્સ:</h3>
+                    <p className="text-muted-foreground">બ્રોફ્લાનિલિડ 20% SC, ક્લોથિઆનિડિન 0.5% GR, સાયપરમેથ્રિન 25% EC, ડાયફેન્થયુરોન 50% WP, ફેનવેલરેટ 20% EC, ફ્લોનિકામિડ 50% WG, ફ્લોપાયરાડિફ્યુરોન 17.09%, ટોલ્ફેનપાયરાડ 15% EC, 12.6% થિઆમેથોક્સામ + 9.5% ZC લેમ્બડા-સાયહેલોથ્રિન.</p>
+                  </div>
+                </div>
               </div>
 
               <div className="bg-accent/5 p-6 rounded-lg border-l-4 border-accent">
                 <p className="font-semibold text-accent mb-2">ખાસ નોંધ:</p>
                 <p>
-                  યા માહિતીચા વાપર કરૂન તુમ્હી તુમચ્યા શેતાત ચી યશસ્વી લાગવડ કરૂ શકતા. અધિક માહિતીસાઠી તુમચ્યા ભાગાતીલ કૃષી સહાય્યક કિંવા કૃષી તજ્ઞાંચા સલ્લા ધ્યા.
+                  આ માહિતીનો વાપર કરીને તમે તમારા ખેતરમાં સફળ લાગવડ કરી શકો છો. અધિક માહિતી માટે તમારા વિસ્તારના કૃષિ સહાયક કે કૃષિ તજ્ઞનો સલ્લો લો.
                 </p>
               </div>
             </div>
@@ -170,212 +149,88 @@ const Okra = () => {
           <Separator className="my-12" />
 
           {/* Hindi Content */}
-          <Card className="mb-12 p-8 md:p-12 bg-card shadow-[var(--shadow-card)] border-border">
+          <Card className="p-8 md:p-12 bg-card shadow-[var(--shadow-card)] border-border">
             <h1 className="text-3xl md:text-4xl font-bold text-accent mb-8 font-devanagari text-center">
-              भिंडी की खेती पद्धति
+              Package of Practices - Hindi
             </h1>
 
             <div className="space-y-8 font-devanagari text-base md:text-lg leading-relaxed text-foreground">
               <div>
-                <h2 className="text-xl md:text-2xl font-bold text-primary mb-3">1. जमीन:</h2>
-                <p>अच्छी जलनिकासी वाली, हल्की बलुई दोमट मिट्टी उपयुक्त है।</p>
-              </div>
-
-              <div>
-                <h2 className="text-xl md:text-2xl font-bold text-primary mb-3">2. बुवाई का समय:</h2>
-                <p>ग्रीष्म: जून-जुलाई, गर्मियों का मौसम: फरवरी</p>
-              </div>
-
-              <div>
-                <h2 className="text-xl md:text-2xl font-bold text-primary mb-3">3. बीज / किलो हेक्टर:</h2>
-                <p>4-6 रोपाई, 8-10 बुवाई</p>
-              </div>
-
-              <div>
-                <h2 className="text-xl md:text-2xl font-bold text-primary mb-3">4. रोपाई की दूरी:</h2>
-                <p>मानसून: 60 x 30 (सेंमी)</p>
-                <p>ग्रीष्म: 45 x 20 (सेंमी)</p>
-              </div>
-
-              <div>
-                <h2 className="text-xl md:text-2xl font-bold text-primary mb-3">5. जमीन की तैयारी:</h2>
+                <h2 className="text-xl md:text-2xl font-bold text-primary mb-3">1. भूमि की तैयारी</h2>
                 <p>
-                  जमीन में गहरी जुताई करके 2-3 बार हल चलाएं। बारिश के मौसम में जमीन अच्छी तरह तैयार होनी चाहिए और पानी की निकासी उचित होनी चाहिए।
+                  बोने से 20-25 दिन पहले हर एकड़ में 10-12 टन खाद डालकर मिट्टी तैयार करें और दूरी का ध्यान रखते हुए क्यारियां बनाएं। नाइट्रोजन फिक्सिंग, फॉस्फोरस घुलनशील और पोटेशियम जैसे ऑर्गेनिक मैटर का इस्तेमाल किया जा सकता है और ट्राइकोडर्मा और स्यूडोमोनास जैसे ऑर्गेनिक मैटर जो बैक्टीरिया को एक्टिवेट करते हैं, उनका इस्तेमाल किया जा सकता है।
                 </p>
               </div>
 
               <div>
-                <h2 className="text-xl md:text-2xl font-bold text-primary mb-3">6. बीज उपचार:</h2>
+                <h2 className="text-xl md:text-2xl font-bold text-primary mb-3">2. बीज दर एवं विधि</h2>
                 <p>
-                  बुवाई से पहले बीजों पर रासायनिक फफूंदनाशक (जैसे थायरम या कार्बेंडाजिम 2-3 ग्राम प्रति किलो बीज) या जैविक फफूंदनाशक (ट्राइकोडर्मा विरिडिस 4 ग्राम प्रति किलो बीज) लगाएं।
+                  औसत 2.5-3.5 kg/एकड़ (पौधों के बीच की दूरी और इलाके के हिसाब से अलग-अलग), तरीका - सीधी बुवाई
                 </p>
               </div>
 
               <div>
-                <h2 className="text-xl md:text-2xl font-bold text-primary mb-3">7. बुवाई विधि:</h2>
+                <h2 className="text-xl md:text-2xl font-bold text-primary mb-3">3. अंतर</h2>
+                <p>रबी - 45 सेमी × 15 सेमी (पंक्ति से पंक्ति × बीज से बीज)</p>
+                <p>खरीफ - 45 सेमी × 30 सेमी (पंक्ति से पंक्ति × बीज से बीज)</p>
+                <p>क्षेत्रीय अभ्यास के अनुसार भिन्न होता है।</p>
+              </div>
+
+              <div>
+                <h2 className="text-xl md:text-2xl font-bold text-primary mb-3">4. पोषक तत्व प्रबंधन</h2>
                 <p>
-                  भिंडी की बुवाई कतार में या नाली बनाकर की जाती है। बारिश के मौसम में उठी हुई क्यारियों पर बुवाई करें।
+                  NPK की ज़रूरत: 60:40:40 NPK kg/एकड़। 30% नाइट्रोजन और 50% फॉस्फोरस और 25% पोटैशियम बेसल डोज़ के तौर पर दिया जाता है। बचा हुआ 40% नाइट्रोजन और 50% फॉस्फोरस और 25% पोटैशियम 25-30 दिनों के गैप पर पहली टॉपड्रेसिंग के तौर पर दिया जाता है। बचा हुआ 30% नाइट्रोजन और 25% पोटैशियम लगभग 45-50 दिनों के गैप पर दूसरी टॉपड्रेसिंग के तौर पर दिया जाता है।
+                </p>
+                <p className="mt-2 text-muted-foreground">
+                  (बैलेंस्ड प्राइमरी, सेकेंडरी और माइक्रोन्यूट्रिएंट्स का इस्तेमाल फल लगने के दौरान और बाद में किया जा सकता है, जिससे पौधे की क्वालिटी और फल की क्वांटिटी बढ़ती है।)
                 </p>
               </div>
 
               <div>
-                <h2 className="text-xl md:text-2xl font-bold text-primary mb-3">8. जैविक खाद (टन/हेक्टर):</h2>
-                <p>10-12 टन खाद</p>
-              </div>
-
-              <div>
-                <h2 className="text-xl md:text-2xl font-bold text-primary mb-3">9. रासायनिक उर्वरक किलो/हेक्टर:</h2>
-                <p>कुल: 100:50:50 (NPK)</p>
-                <p>मुख्य खुराक: 100:50:50 (NPK)</p>
-                <p>पूर्णता: 50:00:00 [N]</p>
-              </div>
-
-              <div>
-                <h2 className="text-xl md:text-2xl font-bold text-primary mb-3">10. सिंचाई:</h2>
-                <p>
-                  बुवाई के तुरंत बाद पहली सिंचाई करें। गर्मियों की फसल के लिए 5-8 दिनों में और सर्दियों की फसल के लिए 10-12 दिनों के अंतर पर सिंचाई करें।
-                </p>
-              </div>
-
-              <div>
-                <h2 className="text-xl md:text-2xl font-bold text-primary mb-3">11. खरपतवार निकालना:</h2>
-                <p>
-                  बुवाई के 25 दिन बाद 2-3 बार अंतर-खेती शुरू करें और फिर 15-20 दिनों के अंतर पर 2-3 बार हाथ से खरपतवार निकालें।
-                </p>
-              </div>
-
-              <div>
-                <h2 className="text-xl md:text-2xl font-bold text-primary mb-3">12. रोग नियंत्रण:</h2>
-                <p>
-                  <strong>पीला मोज़ेक:</strong> अंकुरण के 15 और 30 दिन बाद डाइमेथोएट 0.03% का छिड़काव करके रोगवाहक को नियंत्रित करें। सभी प्रभावित पौधों को उखाड़कर नष्ट कर दें।
-                </p>
-              </div>
-
-              <div>
-                <h2 className="text-xl md:text-2xl font-bold text-primary mb-3">13. कीट नियंत्रण:</h2>
-                <p>
-                  <strong>माहू और तुडतुडे:</strong> अंकुरण के बाद मैलाथियॉन 0.05% और 25-30 दिनों बाद 0.03% डाइमेथोएट का छिड़काव करने से प्रभावी नियंत्रण मिलता है।
-                </p>
-              </div>
-
-              <div>
-                <h2 className="text-xl md:text-2xl font-bold text-primary mb-3">14. कटाई:</h2>
-                <p>
-                  सामान्यतः भिंडी किस्म के अनुसार 45-50 दिनों में फल आने लगते हैं। डंठल को झटका न लगाते हुए घुमाकर भिंडी की तुड़ाई करें।
-                </p>
+                <h2 className="text-xl md:text-2xl font-bold text-primary mb-3">5. कीट एवं रोग प्रबंधन</h2>
+                
+                <div className="space-y-4 mt-4">
+                  <div>
+                    <h3 className="font-semibold text-foreground mb-2">सर्कोस्पोरा लीफ स्पॉट:</h3>
+                    <p className="text-muted-foreground">हेक्साकोनाज़ोल 4% + ज़िनेब 68% WP, प्रोपिकोनाज़ोल 25%, कार्बेन्डाज़िम 12% + मैन्कोज़ेब 63% WP, क्लोरोथेलोनिल 75% WP.</p>
+                  </div>
+                  
+                  <div>
+                    <h3 className="font-semibold text-foreground mb-2">पाउडरी मिल्ड्यू:</h3>
+                    <p className="text-muted-foreground">टेबुकोनाज़ोल 50% + ट्राइफ्लोक्सीस्ट्रोबिन 25% WG, मेटिराम 55% + पाइराक्लोस्ट्रोबिन 5% WG, माइक्लोबुटानिल 10% WP, फ्लूओपाइराम 17.7% + टेबुकोनाज़ोल 17.7%.</p>
+                  </div>
+                  
+                  <div>
+                    <h3 className="font-semibold text-foreground mb-2">वर्टिसिलियम विल्ट:</h3>
+                    <p className="text-muted-foreground">मिट्टी को COC 50% WP, कार्बेन्डाज़िम 25% + मैन्कोज़ेब 50%, थियोफैनेट मिथाइल 70% WP से गीला करें। मिट्टी तैयार करते समय बायोलॉजिकल कंट्रोल एजेंट का इस्तेमाल करने से मिट्टी से होने वाले पैथोजन्स का असर कम करने में मदद मिलेगी।</p>
+                  </div>
+                  
+                  <div>
+                    <h3 className="font-semibold text-foreground mb-2">कली और फल छेदक:</h3>
+                    <p className="text-muted-foreground">ब्रोफ्लैननलाइड 20% SC, क्लोरेंट्रानिलिप्रोले 18.50% SC, सायन्ट्रानिलिप्रोले 10.26% OD, साइपरमेथ्रिन 25% EC, डेल्टामेथ्रिन 2.8% EC, इमामेक्टिन बेंजोएट 05% SG, फेनवालेरेट 20% EC, फ्लूबेंडियामाइड 39.35% SC, पाइरीडालिल 10% EC, स्पिनेटोरम 11.70% SC, क्लोरेंट्रानिलिप्रोले 09.30% + लैम्ब्डा-साइहालोथ्रिन 04.60% ZC.</p>
+                  </div>
+                  
+                  <div>
+                    <h3 className="font-semibold text-foreground mb-2">सफेद मक्खी:</h3>
+                    <p className="text-muted-foreground">क्लोथियानिडिन 0.5% GR, सायन्ट्रानिलिप्रोल 10.26% OD, डाइफेंथ्यूरोन 50% WP, फ्लोनिकैमिड 50% WG, फ्लूपाइराडिफ्यूरोन 17.09% SL, पाइरीप्रोक्सीफेन 10% EC, टोल्फेनपाइराड 15% EC, पाइरीप्रोक्सीफेन 05% + फेनप्रोपेथ्रिन 15% EC.</p>
+                  </div>
+                  
+                  <div>
+                    <h3 className="font-semibold text-foreground mb-2">एफिड:</h3>
+                    <p className="text-muted-foreground">एसिटामिप्रिड 20% SP, सायन्ट्रानिलिप्रोल 10.26% OD, फ्लोनिकैमिड 50% WG, इमिडाक्लोप्रिड 70% WS, स्पिरोटेट्रामेट 15.31% OD, टोल्फेनपाइराड 15% EC.</p>
+                  </div>
+                  
+                  <div>
+                    <h3 className="font-semibold text-foreground mb-2">लीफहॉपर / जैसिड्स:</h3>
+                    <p className="text-muted-foreground">ब्रोफ्लैनिलिड 20% SC, क्लोथियानिडिन 0.5% GR, साइपरमेथ्रिन 25% EC, डाइफेंथ्यूरोन 50% WP, फेनवालेरेट 20% EC, फ्लोनिकैमिड 50% WG, फ्लोपाइराडिफ्यूरोन 17.09%, टोल्फेनपाइराड 15% EC, 12.6% थियामेथोक्सम + 9.5% ZC लैम्ब्डा-साइहालोथ्रिन.</p>
+                  </div>
+                </div>
               </div>
 
               <div className="bg-accent/5 p-6 rounded-lg border-l-4 border-accent">
                 <p className="font-semibold text-accent mb-2">विशेष नोट:</p>
                 <p>
                   इस जानकारी का उपयोग करके आप अपने खेत में सफल खेती कर सकते हैं। अधिक जानकारी के लिए अपने क्षेत्र के कृषि सहायक या कृषि विशेषज्ञ से सलाह लें।
-                </p>
-              </div>
-            </div>
-          </Card>
-
-          <Separator className="my-12" />
-
-          {/* Marathi Content */}
-          <Card className="p-8 md:p-12 bg-card shadow-[var(--shadow-card)] border-border">
-            <h1 className="text-3xl md:text-4xl font-bold text-accent mb-8 font-devanagari text-center">
-              भेंडी पीक लागवड पद्धत
-            </h1>
-
-            <div className="space-y-8 font-devanagari text-base md:text-lg leading-relaxed text-foreground">
-              <div>
-                <h2 className="text-xl md:text-2xl font-bold text-primary mb-3">जमीन:</h2>
-                <p>चांगली निचरा होणारी, हलकी वालूमिश्रित माती योग्य आहे.</p>
-              </div>
-
-              <div>
-                <h2 className="text-xl md:text-2xl font-bold text-primary mb-3">पेरणीची वेळ:</h2>
-                <p>ग्रीष्म: जून-जुले उन्हाळी हंगाम: फेब्रुवारी</p>
-              </div>
-
-              <div>
-                <h2 className="text-xl md:text-2xl font-bold text-primary mb-3">बियाणे / किलो हेक्टर:</h2>
-                <p>4-6 लागवड, 8-10 पेरणी</p>
-              </div>
-
-              <div>
-                <h2 className="text-xl md:text-2xl font-bold text-primary mb-3">लागवडीचे अंतर:</h2>
-                <p>मानसून: 60 x 30 (सें.मी.)</p>
-                <p>ग्रीष्मकाल: 45 x 20 (सें.मी.)</p>
-              </div>
-
-              <div>
-                <h2 className="text-xl md:text-2xl font-bold text-primary mb-3">जमिनीची तयारी:</h2>
-                <p>
-                  जमिनीत ग्रोलवर नांगरणी करून 2-3 वेळा. पावसाळ्यात जमिनीची चांगली तयार असावी व पाण्याचा निचरा योग्य पद्धतीने व्हावा.
-                </p>
-              </div>
-
-              <div>
-                <h2 className="text-xl md:text-2xl font-bold text-primary mb-3">बियाणे उपचार:</h2>
-                <p>
-                  पेरणीपूवी बियाण्यांवर रासायनिक बुरशीनाशके (उदा. थायरम किंवा कार्बेन्डाझिम 2 ते 3 ग्रॅम प्रति किलो बियाणे) किंवा सेंद्रिय बुरशीनाशके (ट्रायकोडर्मा व्हिरिडिस 4 ग्रॅम प्रति किलो बियाणे) लावावे.
-                </p>
-              </div>
-
-              <div>
-                <h2 className="text-xl md:text-2xl font-bold text-primary mb-3">पेरणी पद्धत:</h2>
-                <p>
-                  भेंडीची पेरणी रांगेत किंवा नांगराच्या नाल्यांच्या मागे बियाणे सोडून केली जाते. पावसाळ्यात उतारावर त्याची पेरणी करावी.
-                </p>
-              </div>
-
-              <div>
-                <h2 className="text-xl md:text-2xl font-bold text-primary mb-3">सेंद्रिय ग्रात (टन /किलो) हेक्टर:</h2>
-                <p>10-12 टन ग्रात</p>
-              </div>
-
-              <div>
-                <h2 className="text-xl md:text-2xl font-bold text-primary mb-3">रासायनिक ग्राते किलो /हेक्टर:</h2>
-                <p>एकूण: 100:50:50 (NPK)</p>
-                <p>मुख्य डोस: 100:50:50 (NPK)</p>
-                <p>परिपूर्णता: 50:00:00 [N]</p>
-              </div>
-
-              <div>
-                <h2 className="text-xl md:text-2xl font-bold text-primary mb-3">सिंचाई:</h2>
-                <p>
-                  पेरणीनंतर लगेचच पहिले सिंचन दिले जाते. उन्हाळी पिकांसाठी 5 ते 8 दिवस आणि हिवाळी पिकांसाठी 10-12 दिवसांच्या अंतराने सिंचन व्हावे.
-                </p>
-              </div>
-
-              <div>
-                <h2 className="text-xl md:text-2xl font-bold text-primary mb-3">तण काढणे:</h2>
-                <p>
-                  पेरणीनंतर 25 दिवसांनी 2-3 वेळा आंतरशेती सुरू करावी व नंतर 15-20 दिवसांच्या अंतराने 2-3 वेळा हाताने तण काढून टाकावे.
-                </p>
-              </div>
-
-              <div>
-                <h2 className="text-xl md:text-2xl font-bold text-primary mb-3">रोग नियंत्रण:</h2>
-                <p>
-                  <strong>यलो मोझॅक:</strong> उगवणीनंतर 15 व 30 दिवसांनी डायमेथोएट 0.03% फवारणी करून रोगवाहक नियंत्रण करता येते. त्यावर नियंत्रण ठेवण्यासाठी सर्व बाधित झाडे उखडून नष्ट करावीत
-                </p>
-              </div>
-
-              <div>
-                <h2 className="text-xl md:text-2xl font-bold text-primary mb-3">कीड नियंत्रण:</h2>
-                <p>
-                  <strong>मावा तुडतुडे:</strong> उगवणीनंतर मॅलॅथिऑन 0.05% व 25 व 30 दिवसांनंतर 0.03% डायमेथोएटने फवारणी केल्यास मावा तुडतुडे वर प्रभावी नियंत्रण मिळण्यास मदत होते.
-                </p>
-              </div>
-
-              <div>
-                <h2 className="text-xl md:text-2xl font-bold text-primary mb-3">काढणी:</h2>
-                <p>
-                  साधारणत: भेंडीला जातीनुसार 45-50 दिवसांत फळे येण्यास सुरवात होते. देठाला धक्कू न लागता फिरवून भेंडीची काढणी केली जाते.
-                </p>
-              </div>
-
-              <div className="bg-accent/5 p-6 rounded-lg border-l-4 border-accent">
-                <p className="font-semibold text-accent mb-2">खास नोंद:</p>
-                <p>
-                  या माहितीचा वापर करून तुम्ही तुमच्या शेतात ची यशस्वी लागवड करू शकता. अधिक माहितीसाठी तुमच्या भागातील कृषी सहाय्यक किंवा कृषी तज्ञांचा सल्ला घ्या.
                 </p>
               </div>
             </div>
