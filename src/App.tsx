@@ -13,6 +13,7 @@ import Rasna from "./pages/Rasna";
 import FodderBajra from "./pages/FodderBajra";
 import ResearchGuwar from "./pages/ResearchGuwar";
 import ResearchCowpea from "./pages/ResearchCowpea";
+import VitaraGrass from "./pages/VitaraGrass";
 import NotFound from "./pages/NotFound";
 
 const queryClient = new QueryClient();
@@ -34,6 +35,7 @@ const App = () => (
           <Route path="/fodder-bajra" element={<FodderBajra />} />
           <Route path="/research-guwar" element={<ResearchGuwar />} />
           <Route path="/research-cowpea" element={<ResearchCowpea />} />
+          <Route path="/vitara-grass" element={<VitaraGrass />} />
           {/* ADD ALL CUSTOM ROUTES ABOVE THE CATCH-ALL "*" ROUTE */}
           <Route path="*" element={<NotFound />} />
         </Routes>
