@@ -3,26 +3,33 @@ import researchCowpeaImage from "@/assets/research-cowpea.jpeg";
 
 const ResearchCowpea = () => {
   return (
-    <div className="min-h-screen bg-white">
-      {/* Header */}
-      <header className="bg-white shadow-sm border-b">
-        <div className="container mx-auto px-4 py-4">
-          <div className="flex items-center justify-between">
-            <div className="flex items-center gap-4">
-              <img 
-                src={companyLogo} 
-                alt="Adityaraj Agri Genetics Logo" 
-                className="h-16 w-auto"
+    <div className="min-h-screen bg-background">
+      {/* Company Header */}
+      <section className="bg-card border-b border-border/50">
+        <div className="container max-w-4xl mx-auto px-4 py-6 md:py-8">
+          {/* Logo and Company Name */}
+          <div className="flex items-start gap-4 md:gap-6 mb-4">
+            <div className="flex-shrink-0 w-20 h-20 md:w-28 md:h-28 bg-muted/50 rounded-2xl overflow-hidden shadow-md">
+              <img
+                src={companyLogo}
+                alt="Adityaraj Agri Genetics Logo"
+                className="w-full h-full object-contain p-2"
               />
-              <div>
-                <h1 className="text-xl font-bold text-green-800">ADITYARAJ AGRI GENETICS PVT. LTD.</h1>
-                <p className="text-sm text-gray-600">Survey No. 574/P1, Dantiwada-Tharad Highway, Tharad, Dist. Banaskantha, Gujarat - 385565</p>
-                <p className="text-sm text-gray-600">Contact: 99786 07273 | Email: adityarajseed@gmail.com</p>
+            </div>
+            <div className="flex-1 pt-1">
+              <h1 className="text-xl md:text-3xl font-bold text-foreground mb-3 leading-tight">
+                ADITYARAJ AGRI GENETICS<br />PVT. LTD.
+              </h1>
+              <div className="space-y-0.5 text-xs md:text-sm text-muted-foreground leading-relaxed">
+                <p>S-16, Kanku Complex, Opp. Welcome Party Plot,</p>
+                <p>Modhera Road, Nagalpur, Mehsana, Gujarat, 384002</p>
+                <p className="mt-1.5">Customer Care: +91 99254 41144</p>
+                <p>Email: adityarajagrigenetics@gmail.com</p>
               </div>
             </div>
           </div>
         </div>
-      </header>
+      </section>
 
       {/* Main Content */}
       <main className="container mx-auto px-4 py-8">
