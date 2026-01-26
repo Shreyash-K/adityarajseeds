@@ -27,7 +27,7 @@ const Paras = () => {
             PARAS-11 & PARAS-22 - Hybrid Bajra Seeds
           </h2>
           <p className="text-lg text-muted-foreground mt-2 text-center font-devanagari">
-            પરસ-૧૧ અને પરસ-૨૨ - હાઇબ્રીડ બાજરા | परस-11 और परस-22 - हाइब्रिड बाजरा
+            પારસ-૧૧ અને પારસ-૨૨ - હાઇબ્રીડ બાજરા | पारस-11 और पारस-22 - हाइब्रिड बाजरा
           </p>
         </div>
       </section>
