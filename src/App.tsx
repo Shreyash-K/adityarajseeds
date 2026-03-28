@@ -15,6 +15,7 @@ import ResearchGuwar from "./pages/ResearchGuwar";
 import ResearchCowpea from "./pages/ResearchCowpea";
 import VitaraGrass from "./pages/VitaraGrass";
 import Paras from "./pages/Paras";
+import GumGuvar from "./pages/GumGuvar";
 import NotFound from "./pages/NotFound";
 
 const queryClient = new QueryClient();
