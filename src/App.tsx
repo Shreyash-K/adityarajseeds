@@ -15,6 +15,7 @@ import ResearchGuwar from "./pages/ResearchGuwar";
 import ResearchCowpea from "./pages/ResearchCowpea";
 import VitaraGrass from "./pages/VitaraGrass";
 import Paras from "./pages/Paras";
+import GumGuvar from "./pages/GumGuvar";
 import NotFound from "./pages/NotFound";
 
 const queryClient = new QueryClient();
@@ -38,6 +39,7 @@ const App = () => (
           <Route path="/research-cowpea" element={<ResearchCowpea />} />
           <Route path="/vitara-grass" element={<VitaraGrass />} />
           <Route path="/paras" element={<Paras />} />
+          <Route path="/gum-guvar" element={<GumGuvar />} />
           {/* ADD ALL CUSTOM ROUTES ABOVE THE CATCH-ALL "*" ROUTE */}
           <Route path="*" element={<NotFound />} />
         </Routes>
