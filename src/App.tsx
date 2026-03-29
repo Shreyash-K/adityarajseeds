@@ -17,6 +17,7 @@ import VitaraGrass from "./pages/VitaraGrass";
 import Paras from "./pages/Paras";
 import GumGuvar from "./pages/GumGuvar";
 import Kalamoti from "./pages/Kalamoti";
+import KrantiTal from "./pages/KrantiTal";
 import NotFound from "./pages/NotFound";
 
 const queryClient = new QueryClient();
