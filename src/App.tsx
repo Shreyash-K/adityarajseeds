@@ -19,6 +19,7 @@ import GumGuvar from "./pages/GumGuvar";
 import Kalamoti from "./pages/Kalamoti";
 import KrantiTal from "./pages/KrantiTal";
 import BhaskarCastor from "./pages/BhaskarCastor";
+import Dantiwada7Castor from "./pages/Dantiwada7Castor";
 import NotFound from "./pages/NotFound";
 
 const queryClient = new QueryClient();
