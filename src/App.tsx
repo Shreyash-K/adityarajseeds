@@ -18,6 +18,7 @@ import Paras from "./pages/Paras";
 import GumGuvar from "./pages/GumGuvar";
 import Kalamoti from "./pages/Kalamoti";
 import KrantiTal from "./pages/KrantiTal";
+import BhaskarCastor from "./pages/BhaskarCastor";
 import NotFound from "./pages/NotFound";
 
 const queryClient = new QueryClient();
@@ -44,6 +45,7 @@ const App = () => (
           <Route path="/gum-guvar" element={<GumGuvar />} />
           <Route path="/kalamoti" element={<Kalamoti />} />
           <Route path="/kranti-tal" element={<KrantiTal />} />
+          <Route path="/bhaskar-castor" element={<BhaskarCastor />} />
           {/* ADD ALL CUSTOM ROUTES ABOVE THE CATCH-ALL "*" ROUTE */}
           <Route path="*" element={<NotFound />} />
         </Routes>
