@@ -1,4 +1,4 @@
-import asianSeedsLogo from "@/assets/asian-seeds-logo.jpeg";
+import asianSeedsLogo from "@/assets/asian-seeds-logo.png";
 import uniqueBajraImage from "@/assets/unique-bajra.jpeg";
 
 const UniqueBajra = () => {
