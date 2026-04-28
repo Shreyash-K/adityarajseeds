@@ -13,19 +13,20 @@ const Sundram36 = () => {
             <div className="flex-shrink-0 w-20 h-20 md:w-28 md:h-28 bg-muted/50 rounded-2xl overflow-hidden shadow-md">
               <img
                 src={companyLogo}
-                alt="Adityaraj Agri Genetics Logo"
+                alt="Sundram Seeds Logo"
                 className="w-full h-full object-contain p-2"
               />
             </div>
             <div className="flex-1 pt-1">
               <h1 className="text-xl md:text-3xl font-bold text-foreground mb-3 leading-tight">
-                ADITYARAJ AGRI GENETICS<br />PVT. LTD.
+                SUNDRAM SEEDS
               </h1>
               <div className="space-y-0.5 text-xs md:text-sm text-muted-foreground leading-relaxed">
-                <p>S-16, Kanku Complex, Opp. Welcome Party Plot,</p>
-                <p>Modhera Road, Nagalpur, Mehsana, Gujarat, 384002</p>
-                <p className="mt-1.5">Customer Care: +91 99254 41144</p>
-                <p>Email: adityarajagrigenetics@gmail.com</p>
+                <p>Milkat No. 2560, Survey No. 2102.002, Old Milkat No.32,</p>
+                <p>Kumbhalmer-Chandisar Road, At. & Po.-Kumbhasan,</p>
+                <p>Ta. Palanpur, Dist. B.K. (Gujarat)</p>
+                <p className="mt-1.5">Customer Care: +91 8238092000</p>
+                <p>Email: sundramseeds7108@gmail.com</p>
               </div>
             </div>
           </div>
@@ -36,10 +37,10 @@ const Sundram36 = () => {
       <section className="bg-background py-6 md:py-8 border-b border-border/30">
         <div className="container max-w-4xl mx-auto px-4">
           <h2 className="text-2xl md:text-4xl font-bold text-foreground leading-tight">
-            Tulshi - Research Gum Guar Seeds
+            SUNDRAM-36 - Research Guar Seeds
           </h2>
           <p className="text-lg text-muted-foreground mt-2 font-devanagari">
-            ગમ ગવાર | गम ग्वार
+            એકતડી ગવાર | एकतडी ग्वार
           </p>
         </div>
       </section>
@@ -50,7 +51,7 @@ const Sundram36 = () => {
           <div className="flex justify-center">
             <img
               src={productImage}
-              alt="Tulshi - Research Gum Guar Seeds Package"
+              alt="SUNDRAM-36 Research Guar Seeds Package"
               className="w-full max-w-md rounded-lg shadow-lg"
             />
           </div>
@@ -198,7 +199,7 @@ const Sundram36 = () => {
       {/* Footer */}
       <footer className="bg-card border-t border-border py-6">
         <div className="container mx-auto px-4 text-center text-sm text-muted-foreground">
-          <p>© 2024 Adityaraj Agri Genetics Pvt. Ltd. All rights reserved.</p>
+          <p>© 2026 Sundram Seeds. All rights reserved.</p>
         </div>
       </footer>
     </main>
