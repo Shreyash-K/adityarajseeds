@@ -23,6 +23,8 @@ import Dantiwada7Castor from "./pages/Dantiwada7Castor";
 import UniqueBajra from "./pages/UniqueBajra";
 import Bajra86A22 from "./pages/Bajra86A22";
 import Sundram36 from "./pages/Sundram36";
+import WhiteGold from "./pages/WhiteGold";
+import SundaramG2 from "./pages/SundaramG2";
 import NotFound from "./pages/NotFound";
 
 const queryClient = new QueryClient();
@@ -54,6 +56,8 @@ const App = () => (
           <Route path="/unique-bajra" element={<UniqueBajra />} />
           <Route path="/86a22" element={<Bajra86A22 />} />
           <Route path="/sundram-36" element={<Sundram36 />} />
+          <Route path="/white-gold" element={<WhiteGold />} />
+          <Route path="/sundaram-g2" element={<SundaramG2 />} />
           {/* ADD ALL CUSTOM ROUTES ABOVE THE CATCH-ALL "*" ROUTE */}
           <Route path="*" element={<NotFound />} />
         </Routes>
