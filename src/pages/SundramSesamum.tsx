@@ -1,5 +1,6 @@
 import companyLogo from "@/assets/sundram-seeds-logo.jpeg";
 import productImage from "@/assets/sundram-white-gold.jpeg";
+import productImageG2 from "@/assets/sundram-g2-new.jpeg";
 import { Card } from "@/components/ui/card";
 import { Separator } from "@/components/ui/separator";
 
@@ -37,7 +38,7 @@ const SundramSesamum = () => {
       <section className="bg-background py-6 md:py-8 border-b border-border/30">
         <div className="container max-w-4xl mx-auto px-4">
           <h2 className="text-2xl md:text-4xl font-bold text-foreground leading-tight">
-            White Gold - Research Sesamum Seeds
+            White Gold & Sundaram G-2 - Research Sesamum Seeds
           </h2>
           <p className="text-lg text-muted-foreground mt-2 font-devanagari">
             સંશોધિત તલ | संशोधित तिल
@@ -48,12 +49,23 @@ const SundramSesamum = () => {
       {/* Seed Packet Section */}
       <section className="bg-background py-8 md:py-10">
         <div className="container max-w-4xl mx-auto px-4">
-          <div className="flex justify-center">
-            <img
-              src={productImage}
-              alt="White Gold - Research Sesamum Seeds Package"
-              className="w-full max-w-md rounded-lg shadow-lg"
-            />
+          <div className="grid grid-cols-1 md:grid-cols-2 gap-6 md:gap-8">
+            <div className="flex flex-col items-center">
+              <img
+                src={productImage}
+                alt="White Gold - Research Sesamum Seeds Package"
+                className="w-full max-w-md rounded-lg shadow-lg"
+              />
+              <h3 className="text-xl md:text-2xl font-bold text-foreground mt-4">White Gold</h3>
+            </div>
+            <div className="flex flex-col items-center">
+              <img
+                src={productImageG2}
+                alt="Sundaram G-2 - Research Sesamum Seeds Package"
+                className="w-full max-w-md rounded-lg shadow-lg"
+              />
+              <h3 className="text-xl md:text-2xl font-bold text-foreground mt-4">Sundaram G-2</h3>
+            </div>
           </div>
         </div>
       </section>
