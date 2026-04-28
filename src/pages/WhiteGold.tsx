@@ -19,13 +19,14 @@ const WhiteGold = () => {
             </div>
             <div className="flex-1 pt-1">
               <h1 className="text-xl md:text-3xl font-bold text-foreground mb-3 leading-tight">
-                ADITYARAJ AGRI GENETICS<br />PVT. LTD.
+                SUNDRAM SEEDS
               </h1>
               <div className="space-y-0.5 text-xs md:text-sm text-muted-foreground leading-relaxed">
-                <p>S-16, Kanku Complex, Opp. Welcome Party Plot,</p>
-                <p>Modhera Road, Nagalpur, Mehsana, Gujarat, 384002</p>
-                <p className="mt-1.5">Customer Care: +91 99254 41144</p>
-                <p>Email: adityarajagrigenetics@gmail.com</p>
+                <p>Milkat No. 2560, Survey No. 2102.002, Old Milkat No.32,</p>
+                <p>Kumbhalmer-Chandisar Road, At. & Po.-Kumbhasan,</p>
+                <p>Ta. Palanpur, Dist. B.K. (Gujarat)</p>
+                <p className="mt-1.5">Customer Care: +91 8238092000</p>
+                <p>Email: sundramseeds7108@gmail.com</p>
               </div>
             </div>
           </div>
@@ -183,7 +184,7 @@ const WhiteGold = () => {
       {/* Footer */}
       <footer className="bg-card border-t border-border py-6">
         <div className="container mx-auto px-4 text-center text-sm text-muted-foreground">
-          <p>© 2024 Adityaraj Agri Genetics Pvt. Ltd. All rights reserved.</p>
+          <p>© 2026 Sundram Seeds. All rights reserved.</p>
         </div>
       </footer>
     </main>
