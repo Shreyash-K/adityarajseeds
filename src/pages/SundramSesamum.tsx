@@ -3,7 +3,7 @@ import productImage from "@/assets/sundram-white-gold.jpeg";
 import { Card } from "@/components/ui/card";
 import { Separator } from "@/components/ui/separator";
 
-const WhiteGold = () => {
+const SundramSesamum = () => {
   return (
     <main className="min-h-screen bg-background">
       {/* Company Header */}
