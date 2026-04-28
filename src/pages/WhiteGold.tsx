@@ -1,9 +1,10 @@
 import companyLogo from "@/assets/sundram-seeds-logo.jpeg";
-import productImage from "@/assets/sundram-white-gold.jpeg";
+import whiteGoldImage from "@/assets/sundram-white-gold.jpeg";
+import sundaramG2Image from "@/assets/sundram-g2.jpeg";
 import { Card } from "@/components/ui/card";
 import { Separator } from "@/components/ui/separator";
 
-const WhiteGold = () => {
+const SundramSesamum = () => {
   return (
     <main className="min-h-screen bg-background">
       {/* Company Header */}
@@ -37,7 +38,7 @@ const WhiteGold = () => {
       <section className="bg-background py-6 md:py-8 border-b border-border/30">
         <div className="container max-w-4xl mx-auto px-4">
           <h2 className="text-2xl md:text-4xl font-bold text-foreground leading-tight">
-            White Gold - Research Sesamum Seeds
+            White Gold &amp; Sundaram G-2 - Research Sesamum Seeds
           </h2>
           <p className="text-lg text-muted-foreground mt-2 font-devanagari">
             સંશોધિત તલ | संशोधित तिल
@@ -45,15 +46,26 @@ const WhiteGold = () => {
         </div>
       </section>
 
-      {/* Seed Packet Section */}
+      {/* Seed Packet Section - Two products */}
       <section className="bg-background py-8 md:py-10">
         <div className="container max-w-4xl mx-auto px-4">
-          <div className="flex justify-center">
-            <img
-              src={productImage}
-              alt="White Gold - Research Sesamum Seeds Package"
-              className="w-full max-w-md rounded-lg shadow-lg"
-            />
+          <div className="grid grid-cols-1 md:grid-cols-2 gap-6 md:gap-8">
+            <div className="flex flex-col items-center">
+              <img
+                src={whiteGoldImage}
+                alt="White Gold - Research Sesamum Seeds Package"
+                className="w-full max-w-sm rounded-lg shadow-lg"
+              />
+              <p className="mt-3 text-base md:text-lg font-semibold text-foreground">White Gold</p>
+            </div>
+            <div className="flex flex-col items-center">
+              <img
+                src={sundaramG2Image}
+                alt="Sundaram G-2 - Research Sesamum Seeds Package"
+                className="w-full max-w-sm rounded-lg shadow-lg"
+              />
+              <p className="mt-3 text-base md:text-lg font-semibold text-foreground">Sundaram G-2</p>
+            </div>
           </div>
         </div>
       </section>

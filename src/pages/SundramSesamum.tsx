@@ -1,9 +1,9 @@
 import companyLogo from "@/assets/sundram-seeds-logo.jpeg";
-import productImage from "@/assets/sundram-g2.jpeg";
+import productImage from "@/assets/sundram-white-gold.jpeg";
 import { Card } from "@/components/ui/card";
 import { Separator } from "@/components/ui/separator";
 
-const SundaramG2 = () => {
+const WhiteGold = () => {
   return (
     <main className="min-h-screen bg-background">
       {/* Company Header */}
@@ -37,7 +37,7 @@ const SundaramG2 = () => {
       <section className="bg-background py-6 md:py-8 border-b border-border/30">
         <div className="container max-w-4xl mx-auto px-4">
           <h2 className="text-2xl md:text-4xl font-bold text-foreground leading-tight">
-            Sundaram G-2 - Research Sesamum Seeds
+            White Gold - Research Sesamum Seeds
           </h2>
           <p className="text-lg text-muted-foreground mt-2 font-devanagari">
             સંશોધિત તલ | संशोधित तिल
@@ -51,7 +51,7 @@ const SundaramG2 = () => {
           <div className="flex justify-center">
             <img
               src={productImage}
-              alt="Sundaram G-2 - Research Sesamum Seeds Package"
+              alt="White Gold - Research Sesamum Seeds Package"
               className="w-full max-w-md rounded-lg shadow-lg"
             />
           </div>
@@ -191,4 +191,4 @@ const SundaramG2 = () => {
   );
 };
 
-export default SundaramG2;
+export default SundramSesamum;
