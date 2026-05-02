@@ -1,5 +1,6 @@
 import companyLogo from "@/assets/sundram-seeds-logo.jpeg";
 import productImage from "@/assets/sundram-veer-moong.png";
+import productImageBhoomi from "@/assets/bhoomi-moong.jpeg";
 import { Card } from "@/components/ui/card";
 import { Separator } from "@/components/ui/separator";
 
@@ -48,12 +49,23 @@ const SundramVeer = () => {
       {/* Seed Packet Section */}
       <section className="bg-background py-8 md:py-10">
         <div className="container max-w-4xl mx-auto px-4">
-          <div className="flex justify-center">
-            <img
-              src={productImage}
-              alt="Sundram Veer - Research Moong Seeds Package"
-              className="w-full max-w-md rounded-lg shadow-lg"
-            />
+          <div className="grid grid-cols-1 md:grid-cols-2 gap-6 md:gap-8">
+            <div className="flex flex-col items-center">
+              <img
+                src={productImage}
+                alt="Sundram Veer - Research Moong Seeds Package"
+                className="w-full max-w-md rounded-lg shadow-lg"
+              />
+              <p className="mt-3 text-base md:text-lg font-semibold text-foreground">Sundram Veer</p>
+            </div>
+            <div className="flex flex-col items-center">
+              <img
+                src={productImageBhoomi}
+                alt="Bhoomi - Research Moong Seeds Package"
+                className="w-full max-w-md rounded-lg shadow-lg"
+              />
+              <p className="mt-3 text-base md:text-lg font-semibold text-foreground">Bhoomi</p>
+            </div>
           </div>
         </div>
       </section>
