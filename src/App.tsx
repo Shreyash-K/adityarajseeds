@@ -27,6 +27,7 @@ import SundramSesamum from "./pages/SundramSesamum";
 import SundramBajra from "./pages/SundramBajra";
 import SundramBlackGold from "./pages/SundramBlackGold";
 import SundramVeer from "./pages/SundramVeer";
+import Bhoomi from "./pages/Bhoomi";
 import NotFound from "./pages/NotFound";
 
 const queryClient = new QueryClient();
@@ -62,6 +63,7 @@ const App = () => (
           <Route path="/sundram-bajra" element={<SundramBajra />} />
           <Route path="/sundram-black-gold" element={<SundramBlackGold />} />
           <Route path="/sundram-veer" element={<SundramVeer />} />
+          <Route path="/bhoomi" element={<Bhoomi />} />
           {/* ADD ALL CUSTOM ROUTES ABOVE THE CATCH-ALL "*" ROUTE */}
           <Route path="*" element={<NotFound />} />
         </Routes>
