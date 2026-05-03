@@ -1,9 +1,9 @@
-import companyLogo from "@/assets/sundram-seeds-logo.jpeg";
-import productImage from "@/assets/sundram-veer-moong.png";
+import companyLogo from "@/assets/asian-seeds-logo.png";
+import productImage from "@/assets/bhoomi-moong.jpeg";
 import { Card } from "@/components/ui/card";
 import { Separator } from "@/components/ui/separator";
 
-const SundramVeer = () => {
+const Bhoomi = () => {
   return (
     <main className="min-h-screen bg-background">
       {/* Company Header */}
@@ -13,20 +13,20 @@ const SundramVeer = () => {
             <div className="flex-shrink-0 w-20 h-20 md:w-28 md:h-28 bg-muted/50 rounded-2xl overflow-hidden shadow-md">
               <img
                 src={companyLogo}
-                alt="Sundram Seeds Logo"
+                alt="Asian Seeds Logo"
                 className="w-full h-full object-contain p-2"
               />
             </div>
             <div className="flex-1 pt-1">
               <h1 className="text-xl md:text-3xl font-bold text-foreground mb-3 leading-tight">
-                SUNDRAM SEEDS
+                ASIAN SEEDS
               </h1>
               <div className="space-y-0.5 text-xs md:text-sm text-muted-foreground leading-relaxed">
-                <p>Milkat No. 2560, Survey No. 2102.002, Old Milkat No.32,</p>
-                <p>Kumbhalmer-Chandisar Road, At. & Po.-Kumbhasan,</p>
-                <p>Ta. Palanpur, Dist. B.K. (Gujarat)</p>
-                <p className="mt-1.5">Customer Care: +91 8238092000</p>
-                <p>Email: sundramseeds7108@gmail.com</p>
+                <p className="font-semibold">Produced, Packed &amp; Marketed By:</p>
+                <p>Shop No.12, Siddhi Vinayak Complex,</p>
+                <p>Banas Dairy Road, Opp. Jahanara Baugh,</p>
+                <p>Palanpur-385001. Dist.: B.K. (Gujarat)</p>
+                <p className="mt-1.5">Customer Care No.: 99793 09448</p>
               </div>
             </div>
           </div>
@@ -37,7 +37,7 @@ const SundramVeer = () => {
       <section className="bg-background py-6 md:py-8 border-b border-border/30">
         <div className="container max-w-4xl mx-auto px-4">
           <h2 className="text-2xl md:text-4xl font-bold text-foreground leading-tight">
-            Sundram Veer - Research Moong Seeds
+            Bhoomi - Research Moong Seeds
           </h2>
           <p className="text-lg text-muted-foreground mt-2 font-devanagari">
             મગ | मूंग
@@ -51,7 +51,7 @@ const SundramVeer = () => {
           <div className="flex justify-center">
             <img
               src={productImage}
-              alt="Sundram Veer - Research Moong Seeds Package"
+              alt="Bhoomi - Research Moong Seeds Package"
               className="w-full max-w-md rounded-lg shadow-lg"
             />
           </div>
@@ -258,11 +258,11 @@ const SundramVeer = () => {
       {/* Footer */}
       <footer className="bg-card border-t border-border py-6">
         <div className="container mx-auto px-4 text-center text-sm text-muted-foreground">
-          <p>© 2026 Sundram Seeds. All rights reserved.</p>
+          <p>© 2026 Asian Seeds. All rights reserved.</p>
         </div>
       </footer>
     </main>
   );
 };
 
-export default SundramVeer;
+export default Bhoomi;
