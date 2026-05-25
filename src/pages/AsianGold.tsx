@@ -1,3 +1,4 @@
+import asianSeedsLogo from "@/assets/asian-seeds-logo.png";
 import asianGoldImage from "@/assets/asian-gold-guwar.jpeg";
 import { Card } from "@/components/ui/card";
 import { Separator } from "@/components/ui/separator";
@@ -5,19 +6,30 @@ import { Separator } from "@/components/ui/separator";
 const AsianGold = () => {
   return (
     <main className="min-h-screen bg-background">
-      {/* Company Header */}
-      <section className="bg-card border-b border-border/50">
-        <div className="container max-w-4xl mx-auto px-4 py-6 md:py-8">
-          <div className="flex items-start gap-4 md:gap-6 mb-4">
-            <div className="flex-1 pt-1">
-              <h1 className="text-xl md:text-3xl font-bold text-foreground mb-3 leading-tight">
+      {/* Header */}
+      <header className="bg-card border-b border-border">
+        <div className="container mx-auto px-4 py-4">
+          <div className="flex flex-col md:flex-row items-center gap-4">
+            <img
+              src={asianSeedsLogo}
+              alt="Asian Seeds Logo"
+              className="w-20 h-20 md:w-24 md:h-24 object-contain rounded-lg shadow-md bg-white"
+            />
+            <div className="text-center md:text-left">
+              <h1 className="text-xl md:text-2xl font-bold text-primary">
                 ASIAN SEEDS
               </h1>
-              <p className="text-sm md:text-base text-muted-foreground">Research Guwar Seeds</p>
+              <div className="space-y-0.5 text-xs md:text-sm text-muted-foreground leading-relaxed">
+                <p className="font-semibold">Produced, Packed &amp; Marketed By:</p>
+                <p>Shop No.12, Siddhi Vinayak Complex,</p>
+                <p>Banas Dairy Road, Opp. Jahanara Baugh,</p>
+                <p>Palanpur-385001. Dist.: B.K. (Gujarat)</p>
+                <p className="mt-1.5">Customer Care No.: 99793 09448</p>
+              </div>
             </div>
           </div>
         </div>
-      </section>
+      </header>
 
       {/* Product Title Section */}
       <section className="bg-background py-6 md:py-8 border-b border-border/30">
