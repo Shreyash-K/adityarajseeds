@@ -67,7 +67,6 @@ const AsianGold = () => {
 
             <div className="space-y-4 text-foreground font-devanagari">
               <div className="bg-muted/50 p-4 rounded-lg">
-              <div className="bg-muted/50 p-4 rounded-lg">
                 <h4 className="font-semibold text-primary mb-2">1. આબોહવા અને જમીન:</h4>
                 <p className="text-sm">ગવાર ગમ માટે ગરમ અને સૂકું હવામાન શ્રેષ્ઠ છે. તે વિવિધ પ્રકારની જમીનમાં ઉગી શકે છે, પરંતુ સારી નિતારવાળી ગોરાડુ જમીન સૌથી યોગ્ય છે. જમીનનું pH 7.0 થી 8.5 ની વચ્ચે હોવું જોઈએ.</p>
               </div>
