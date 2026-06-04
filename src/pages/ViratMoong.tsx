@@ -19,14 +19,13 @@ const ViratMoong = () => {
             </div>
             <div className="flex-1 pt-1">
               <h1 className="text-xl md:text-3xl font-bold text-foreground mb-3 leading-tight">
-                ASIAN SEEDS
+                ADITYARAJ AGRI GENETICS<br />PVT. LTD.
               </h1>
               <div className="space-y-0.5 text-xs md:text-sm text-muted-foreground leading-relaxed">
-                <p className="font-semibold">Produced, Packed &amp; Marketed By:</p>
-                <p>Shop No.12, Siddhi Vinayak Complex,</p>
-                <p>Banas Dairy Road, Opp. Jahanara Baugh,</p>
-                <p>Palanpur-385001. Dist.: B.K. (Gujarat)</p>
-                <p className="mt-1.5">Customer Care No.: 99793 09448</p>
+                <p>S-16, Kanku Complex, Opp. Welcome Party Plot,</p>
+                <p>Modhera Road, Nagalpur, Mehsana, Gujarat, 384002</p>
+                <p className="mt-1.5">Customer Care: +91 99254 41144</p>
+                <p>Email: adityarajagrigenetics@gmail.com</p>
               </div>
             </div>
           </div>
