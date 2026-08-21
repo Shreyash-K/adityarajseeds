@@ -1,6 +1,6 @@
 import companyLogo from "@/assets/company-logo.jpeg";
-import aditya46 from "@/assets/aditya-46.jpeg.asset.json";
-import aditya99 from "@/assets/aditya-99.jpeg.asset.json";
+import aditya46 from "@/assets/aditya-46.jpeg";
+import aditya99 from "@/assets/aditya-99.jpeg";
 
 const AdityaMustard = () => {
   return (
