@@ -39,7 +39,7 @@ const AdityaMustard = () => {
           <div className="grid grid-cols-1 md:grid-cols-2 gap-6 max-w-4xl mx-auto">
             <div>
               <img
-                src={aditya46.url}
+                src={aditya46}
                 alt="Aditya-46 Hybrid Mustard Seeds Package"
                 className="w-full h-auto rounded-lg shadow-lg"
               />
@@ -47,7 +47,7 @@ const AdityaMustard = () => {
             </div>
             <div>
               <img
-                src={aditya99.url}
+                src={aditya99}
                 alt="Aditya-99 Research Mustard Seeds Package"
                 className="w-full h-auto rounded-lg shadow-lg"
               />
