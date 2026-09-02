@@ -32,6 +32,7 @@ import AsianGold from "./pages/AsianGold";
 import Gch7Castor from "./pages/Gch7Castor";
 import ViratMoong from "./pages/ViratMoong";
 import AdityaMustard from "./pages/AdityaMustard";
+import Asian21 from "./pages/Asian21";
 import NotFound from "./pages/NotFound";
 
 const queryClient = new QueryClient();
